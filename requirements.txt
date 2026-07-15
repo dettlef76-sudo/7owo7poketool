@@ -1,0 +1,16 @@
+streamlit
+opencv-python-headless
+numpy
+Pillow
+pillow-heif
+requests
+beautifulsoup4
+streamlit-cropper
+pyinstaller
+
+# OCR - rein per pip, keine Programm-/PATH-Installation noetig:
+rapidocr-onnxruntime
+
+# Optionale OCR-Fallbacks:
+winocr; sys_platform == "win32"
+pytesseract
