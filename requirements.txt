@@ -6,7 +6,8 @@ pillow-heif
 requests
 beautifulsoup4
 streamlit-cropper
-pyinstaller
+# Nur fuer den lokalen exe-Build (build_exe.bat) noetig, nicht fuer Streamlit Cloud:
+pyinstaller; sys_platform == "win32"
 
 # OCR - rein per pip, keine Programm-/PATH-Installation noetig:
 rapidocr-onnxruntime
